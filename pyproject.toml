@@ -1,0 +1,4 @@
+requires-python = ">=3.12,<3.13"
+
+[tool.fastapi]
+entrypoint = "src.resume_ranker.api.app:app"
